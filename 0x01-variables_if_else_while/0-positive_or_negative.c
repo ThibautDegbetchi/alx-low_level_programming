@@ -3,19 +3,19 @@
 
 int main(void)
 {
-	float n;
-	scanf("%f",&n);
+	int n;
+	scanf("%d", &n);
 	if(n>0)
 	{
-		printf("%f is positive",n);
+		printf("%d is positive", n);
 	}
 	else if(n<0)
 	{
-		printf("%f is negative",n);
+		printf("%d is negative", n);
 	}
 	else
 	{
-		printf("%f is zero",n);
+		printf("%d is zero", n);
 	}
 	return (0);
 }
